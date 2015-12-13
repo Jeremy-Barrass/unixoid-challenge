@@ -1,0 +1,3 @@
+XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/jeremy
+XDG_SESSION_ID=c2
+XDG_VTNR=7

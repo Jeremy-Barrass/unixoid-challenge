@@ -1,0 +1,1000 @@
+ 1040  man ls
+ 1041  ls
+ 1042  cd Dir3
+ 1043  ls
+ 1044  cat combined | less
+ 1045  cat combined
+ 1046  ls
+ 1047  cat combined.txt > newCombined.txt
+ 1048  cat combined > newCombined.txt
+ 1049  ls
+ 1050  exit
+ 1051  cd "Programming/Makers Academy/Dir3
+ 1052  "
+ 1053  cd "Programming/Makers Academy/Dir3"
+ 1054  ls
+ 1055  ls *.txt
+ 1056  ls *text
+ 1057  ls *Text
+ 1058  ls F*
+ 1059  ls new*
+ 1060  ls *
+ 1061  ls *n*
+ 1062  find . -name"*Text" -print
+ 1063  find . -name "*Text" -print
+ 1064  cd ~
+ 1065  find . -name "*Text" -print
+ 1066  cd ~/Music
+ 1067  find . -name *.mp3 -print > "~/Programming/Makers Academy/myMusic.txt
+ 1068  "
+ 1069  find . -name *.mp3 -print > "~/Programming/Makers Academy/myMusic.txt"
+ 1070  cd ..
+ 1071  cd Music
+ 1072  cd "~/Programming/Makers Academy"
+ 1073  cd ..
+ 1074  cd "Programming/Makers Academy"
+ 1075  cd ~/Programming
+ 1076  cd ~/Music
+ 1077  cd ~/Programming/Makers\ Academy
+ 1078  find . -name *.mp3 -print > ~/Programming/Makers\ Academy/myMusic.txt
+ 1079  cd ~/Music
+ 1080  find . -name *.mp3 -print > ~/Programming/Makers\ Academy/myMusic.txt
+ 1081  man find
+ 1082  find . -name *.mp3 -print > myMusic.txt
+ 1083  find -H . -name *.mp3 -print > ~/Programming/Makers\ Academy/myMusic.txt
+ 1084  find . *.mp3 -name -print > ~/Programming/Makers\ Academy/myMusic.txt
+ 1085  cd ~/Programming/Makers\ Academy
+ 1086  ls
+ 1087  less myMusic.txt
+ 1088  cd ~/Music
+ 1089  find . -name "*.mp3" -print > ~Programming/Makers\ Academy/Dir3/myMusic.txt
+ 1090  find . -name "*.mp3" -print > ~/Programming/Makers\ Academy/Dir3/myMusic.txt
+ 1091  cd ~/Programming/Makers\ Academy/Dir3
+ 1092  ls
+ 1093  less myMusic.txt
+ 1094  cd
+ 1095  cd Programming/Makers\ Academy/Dir3
+ 1096  find ~ -name "*.txt" -print | grep README
+ 1097  find ~ -name "*" -print | grep "\d+"
+ 1098  find ~ -name "*" -print | grep "\d\+"
+ 1099  find ~ -name "*" -print | grep "d+"
+ 1100  find ~ -name "*" -print | grep -include [0123456789]
+ 1101  wc longText.txt
+ 1102  wc longText
+ 1103  find ~ -name "*" -print | grep -include [0123456789]
+ 1104  grep help
+ 1105  grep --help
+ 1106  find ~ -name "*" -print | grep -l [0123456789]
+ 1107  find ~ -name "*" -print | grep -rl [0123456789]
+ 1108  find ~ -name "*" -print | grep README | wc -l
+ 1109  find ~ -name "*" -print | grep [0-9]
+ 1110  find ~ -name "*" -print | grep [0-9] | wc -l
+ 1111  grep --help
+ 1112  ls -l
+ 1113  cd ..
+ 1114  ls -l
+ 1115  ls -lr
+ 1116  ls -r
+ 1117  ls -rA
+ 1118  man ls
+ 1119  ls -lR
+ 1120  cd Dir3
+ 1121  chmod o-r myMusic.txt
+ 1122  ls -l
+ 1123  chmod o+x myMusic.txt
+ 1124  ls -l
+ 1125  chmod o+r myMusic.txt
+ 1126  ls -l
+ 1127  chmod o-x myMusic.txt
+ 1128  ls -l
+ 1129  cd ..
+ 1130  ls -l
+ 1131  cat > hello.rb
+ 1132  cat hello.rb
+ 1133  cat > hello.rb
+ 1134  cat hello.rb
+ 1135  ruby hello.rb
+ 1136  irb
+ 1137  ./hello.rb
+ 1138  ls -l
+ 1139  chmod u+x hello.rb
+ 1140  ./hello.rb
+ 1141  which ruby
+ 1142  gedit hello.rb
+ 1143  ./hello.rb
+ 1144  cat hello.rb
+ 1145  which grep
+ 1146  cd ~/Downloads
+ 1147  ls
+ 1148  cp "Sublime Text 2.0.2.tar.bz2" "~/Programming/Sublime Text/Sublime Text 2.0.2.tar.bz2"
+ 1149  cp Sublime\ Text\ 2.0.2.tar.bz2" ~/Programming/Sublime\ Text/Sublime\ Text\ 2.0.2.tar.bz2
+ 1150  cd ~/Programming
+ 1151  ls
+ 1152  mkdir Sublime
+ 1153  ls
+ 1154  cd ~/Downloads
+ 1155  ls
+ 1156  mv Sublime\ Text\ 2.0.2.tar.bz2 ~/Programming/Sublime/Sublime\ Text\ 2.0.2.tar.bz2
+ 1157  ls
+ 1158  cd ~/Programming/Sublime
+ 1159  ls
+ 1160  tar Sublime\ Text\ 2.0.2.tar.bz2
+ 1161  tar --help
+ 1162  tar -x Sublime\ Text\ 2.0.2.tar.bz2
+ 1163  ls
+ 1164  cd Sublime\ Text\ 2
+ 1165  ls
+ 1166  ./configure
+ 1167  ./PackageSetup.py
+ 1168  cd Pristine\ Packages
+ 1169  ls
+ 1170  cd ..
+ 1171  ls
+ 1172  ./sublime_text
+ 1173  cd ..
+ 1174  cd "Makers Academy"
+ 1175  ls
+ 1176  sublime_text hello.rb
+ 1177  ./sublime_text hello.rb
+ 1178  cd ~/Programming/Subime
+ 1179  cd ~/Programming/Sublime
+ 1180  ls
+ 1181  Sublime\ Text\ 2
+ 1182  cd Sublime\ Text\ 2
+ 1183  ./sublime_text ~/Programming/Makers\ Academy/hello.rb
+ 1184  cd ~/Programming/Makers\ Academy
+ 1185  ./hello.rb
+ 1186  gedit hello.rb
+ 1187  ./~/PRogarmming/Sublime/Sublime\ Text\ 2/sublime_text
+ 1188  ./~/Programming/Sublime/Sublime\ Text\ 2/sublime_text hello.rb
+ 1189  ~/Programming/Sublime/Sublime\ Text\ 2/./sublime_text hello.rb
+ 1190  which irb
+ 1191  head -5 /usr/local/bin/irb
+ 1192  head -5 irb
+ 1193  head -5 `irb`
+ 1194  head -5 `irb
+ 1195  e
+ 1196  head -5 /usr/local/bin/irb
+ 1197  cd Programming/Makers\ Academy/Dir3
+ 1198  ls
+ 1199  chmod a-xrw File4
+ 1200  ls -l File4
+ 1201  rm File4
+ 1202  ls
+ 1203  touch File4
+ 1204  ls
+ 1205  ls -l
+ 1206  env
+ 1207  echo $WINDOWID
+ 1208  echo $PATH
+ 1209  exit
+ 1210  cd Programming/Sublime/Sublime\ Text\ 2
+ 1211  ls
+ 1212  mv sublime_text sublime
+ 1213  ls
+ 1214  echo $PATH
+ 1215  export PATH=$PATH:/home/jeremy/Programming/Sublime/Subime\ Text\ 2
+ 1216  echo $PATH
+ 1217  cd ~/Programming/Makers\ Academy
+ 1218  sublime hello.rb
+ 1219  ./sublime hello.rb
+ 1220  export PATH=$PATH:/home/jeremy/Programming/Sublime/Sublime\ Text\ 2
+ 1221  echo $PATH
+ 1222  sublime hello.rb
+ 1223  export SEASON=winter
+ 1224  echo $SEASON
+ 1225  cat ~/.bash_profile
+ 1226  which RVM
+ 1227  cat ~/.profie
+ 1228  cat ~/.profile
+ 1229  sudo apt-get update
+ 1230  sudo apt-get install got-core curl
+ 1231  sudo apt-get install git-core curl
+ 1232  sudo apt-get install zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev 
+ 1233  sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev
+ 1234  curl -L https://get.rvm.io | bash -s stable
+ 1235  curl hkp://keys.gnupg.net
+ 1236  man curl
+ 1237  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+ 1238  curl -L https://get.rvm.io | bash -s stable
+ 1239  souce~/.rvm/scripts.rvm
+ 1240  souce ~/.rvm/scripts.rvm
+ 1241  source~/.rvm/scripts.rvm
+ 1242  source ~/.rvm/scripts.rvm
+ 1243  source /home/jeremy-1016P/.rvm/scripts.rvm
+ 1244  source /home/jeremy/.rvm/scripts.rvm
+ 1245  help source
+ 1246  echo $PATH
+ 1247  export PATH=$PATH:/home/jeremy
+ 1248  echo PATH
+ 1249  echo $PATH
+ 1250  source ~/.rvm/scripts.rvm
+ 1251  cd
+ 1252  source ~/.rvm/scripts.rvm
+ 1253  ls
+ 1254  ls -A | les
+ 1255  ls -A | less
+ 1256  cd .rvm
+ 1257  ls
+ 1258  sublime README
+ 1259  man source
+ 1260  help source
+ 1261  source scripts/rvm
+ 1262  source scripts
+ 1263  ls
+ 1264  cd scripts
+ 1265  ls
+ 1266  source rvm
+ 1267  cd ~/Programming/Makers\ Academy
+ 1268  ruby -v
+ 1269  rvm use 2.2.3 -default
+ 1270  rvm usage
+ 1271  rvm use 2.2.3 --default
+ 1272  cat ~/.profile
+ 1273  exit
+ 1274  cd
+ 1275  cd ..
+ 1276  cd..
+ 1277  cd ..
+ 1278  ls
+ 1279  cd home
+ 1280  ls
+ 1281  cd jeremy
+ 1282  echo $SEASON
+ 1283  cat .bash_profile
+ 1284  exit
+ 1285  cd Programming/Makers\ Academy
+ 1286  sublime
+ 1287  echo $PATH
+ 1288  rvm use 2.2.3 --default
+ 1289  cat .bash_profile
+ 1290  cat ~/.profile
+ 1291  source rvm
+ 1292  rvm help use
+ 1293  exit
+ 1294  cd Programming/Makers\ Academy
+ 1295  rvm use 2.2.3 --default
+ 1296  rvm install ruby-2.2.2 ruby-2.2.3
+ 1297  rvm docs generate-ri
+ 1298  ruby -v
+ 1299  echo "gem: -no-ri -no-rdoc" > ~./gemrc
+ 1300  echo "gem: -no-ri -no-rdoc" > ~/.gemrc
+ 1301  gem install bundler
+ 1302  wget -O- https://toolbelt.herou.com/install-ubuntu.sh | sh
+ 1303  help wget
+ 1304  man -k wget
+ 1305  man wget
+ 1306  wget -O- https://toolbelt.herou.com/install-ubuntu.sh | sh
+ 1307  exit
+ 1308  wget -O- https://toolbelt.herou.com/install-ubuntu.sh | sh
+ 1309  wget --secure-protocol=TLSv1 -O- https://toolbelt.herou.com/install-ubuntu.sh | sh
+ 1310  wget -O- https://toolbelt.herou.com/install-ubuntu.sh | sh
+ 1311  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+ 1312  heroku login
+ 1313  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
+ 1314  rm -rf /home/jeremy/.linuxbrew/Cellar /home/jeremy/.linuxbrew/.git && brew cleanup
+ 1315  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
+ 1316  Y
+ 1317  echo $PATH
+ 1318  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
+ 1319  man brew
+ 1320  help brew
+ 1321  info brew
+ 1322  rm -rf /home/jeremy/.linuxbrew/Cellar /home/jeremy/.linuxbrew/.git && brew cleanup
+ 1323  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
+ 1324  git fetch origin master:refs/remotes/origin/master -n
+ 1325  which yum
+ 1326  which curl
+ 1327  which git
+ 1328  sudo apt-get install libcurl4-openssl-dev
+ 1329  git --version
+ 1330  rm -rf /home/jeremy/.linuxbrew/Cellar /home/jeremy/.linuxbrew/.git && brew cleanup
+ 1331  ruby -e "$(curl -fsSL git://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
+ 1332  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
+ 1333  apt-get remove --purge git-svn git-core
+ 1334  sudo apt-get remove --purge git-svn git-core
+ 1335  rm /usr/local/bin/git
+ 1336  sudo rm /usr/local/bin/git
+ 1337  sudo apt-get install git-svn git-core
+ 1338  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
+ 1339  rm -rf /home/jeremy/.linuxbrew/Cellar /home/jeremy/.linuxbrew/.git && brew cleanup
+ 1340  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
+ 1341  Y
+ 1342  sudo apt-get install build-essential
+ 1343  brew doctor
+ 1344  exit
+ 1345  brew doctor
+ 1346  which brewdoctor
+ 1347  echo $PATH
+ 1348  brew doctor
+ 1349  brew update
+ 1350  brew install node
+ 1351  node -v
+ 1352  npm -v
+ 1353  sublime
+ 1354  cd Programming/Sublime
+ 1355  cd Sublime\ Text\ 2
+ 1356  ls
+ 1357  cd
+ 1358  cd ..
+ 1359  ls
+ 1360  cd home/jeremy
+ 1361  cd Programming/Sublime/Sublime\ Text\ 2
+ 1362  ls
+ 1363  echo export\ PATH=$PATH:/home/jeremy/Programming/Sublime/Sublime\ Text\ 2 >> ~/.profile
+ 1364  cd ~/Programming/Makers\ Academy
+ 1365  ls
+ 1366  sublime hello.rb
+ 1367  echo PATH
+ 1368  echo $PATH
+ 1369  cat ~/.profile
+ 1370  exit
+ 1371  gedit .profile
+ 1372  exit
+ 1373  cd Programming/Makers\ Academy
+ 1374  sublime hello.rb
+ 1375  hello.rb
+ 1376  ruby hello.rb
+ 1377  ./hello.rb
+ 1378  ps
+ 1379  ps x
+ 1380  px x | grep bash
+ 1381  ps x | grep bash
+ 1382  ps x | grep bash | wc -l
+ 1383  which vim
+ 1384  sudo apt-get update
+ 1385  cd
+ 1386  sudo -u postgres psql
+ 1387  sudo apt-get install vim
+ 1388  which vim
+ 1389  vim --version
+ 1390  vi newFile
+ 1391  exit
+ 1392  man env
+ 1393  man pgrep
+ 1394  cd Programming/Java
+ 1395  ls
+ 1396  cd Quiz_Cards
+ 1397  java Quiz_Cards
+ 1398  ls
+ 1399  java QuizCardBuilder.class
+ 1400  java QuizCardBuilder
+ 1401  cd ..
+ 1402  ls
+ 1403  cd jdk1.7.0_45
+ 1404  ls
+ 1405  cd bin
+ 1406  ls
+ 1407  echo "export PATH=$PATH:/home/jeremy/Programming/Java/jdk1.7.0_45/bin" >> ~/.profile
+ 1408  cat ~/.profile
+ 1409  exit
+ 1410  cd Programming/Java/QuizCards
+ 1411  cd Programming/Java/Quiz_Cards
+ 1412  java QuizCardBuilder
+ 1413  ls
+ 1414  ~/Programming/Java/jdk1.7.0_45/bin/java QuizCardBuilder
+ 1415  ~/Programming/Java/jdk1.7.0_45/bin/java QuizCard
+ 1416  ~/Programming/Java/jdk1.7.0_45/bin/java QuizCardPlayer
+ 1417  exit
+ 1418  gedit .profile
+ 1419  sublime .profile
+ 1420  gedit .profile
+ 1421  sublime .profile
+ 1422  gedit
+ 1423  gedit .profile
+ 1424  cd Programming/Makers\ Academy
+ 1425  ls
+ 1426  sublime hello.rb
+ 1427  exit
+ 1428  cd ..
+ 1429  wc hello.rb
+ 1430  wc -l  hello.rb
+ 1431  wc -w  hello.rb
+ 1432  wc -c  hello.rb
+ 1433  exit
+ 1434  whoami
+ 1435  echo $DAY
+ 1436  exit
+ 1437  echo DAY
+ 1438  echo $DAY
+ 1439  exit
+ 1440  pwd
+ 1441  cd Programming/Makers\ Academy
+ 1442  ls
+ 1443  cd Challenge_1
+ 1444  ls
+ 1445  mkdir New
+ 1446  ls
+ 1447  touch newFile
+ 1448  mv newFile New
+ 1449  ls
+ 1450  pwd
+ 1451  cd Text_Files
+ 1452  cd ./Text_Files
+ 1453  cd Text_Files
+ 1454  cd ~/Programming/Makers\ Academy/Challenge_1/Text_Files
+ 1455  cd ..
+ 1456  man mkdir
+ 1457  mkdir -pv Foo/Bar/Folders
+ 1458  ls
+ 1459  ls -l
+ 1460  rm Empty_Folder
+ 1461  rm -f Empty_Folder
+ 1462  rm -r Empty_Folder
+ 1463  ls
+ 1464  rm -r New
+ 1465  cd Text_Files
+ 1466  cp More_Text Learn_to_code
+ 1467  ls
+ 1468  cp More_Text.txt Learn_to_code
+ 1469  ls
+ 1470  head -5 Learn_to_code
+ 1471  tail -5 Learn_to_code
+ 1472  echo Learn_to_code
+ 1473  cat Learn_to_code
+ 1474  pwd
+ 1475  cat Lern_to_code | grep a
+ 1476  cat Learn_to_code | grep a
+ 1477  man fin
+ 1478  man find
+ 1479  man grep
+ 1480  touch blank
+ 1481  ls
+ 1482  ls *.txt
+ 1483  wc -l Learn_to_code
+ 1484  wc -w Less_Text
+ 1485  wc -w Less_Text.txt
+ 1486  ls | grep .txt | wc -l
+ 1487  cd
+ 1488  ls ^b
+ 1489  ls ^b*
+ 1490  ls b*
+ 1491  find ^b*
+ 1492  find b*
+ 1493  find "b*"
+ 1494  find b
+ 1495  man find
+ 1496  find /~ b*
+ 1497  find ~ b*
+ 1498  pwd
+ 1499  find ~/b
+ 1500  find ~/b*
+ 1501  find ~/b* -a
+ 1502  man find
+ 1503  ls
+ 1504  find B
+ 1505  find B*
+ 1506  man wc
+ 1507  env
+ 1508  export DAY=Friday
+ 1509  echo $DAY
+ 1510  echo "export DAY=Friday" >> ~/.profile
+ 1511  cd Programming/Java/jdk1.7.0_45/bin
+ 1512  ls
+ 1513  cd
+ 1514  cd Programming/Makers\ Academy/Challenge_1/Text_Files
+ 1515  ls -l
+ 1516  chmod -gw More_Text
+ 1517  chmod -g -w More_Text.txt
+ 1518  ls -l
+ 1519  man chmod
+ 1520  chmod -u -r More_Text.txt
+ 1521  ls -l
+ 1522  chmod -u +r More_Text.txt
+ 1523  ls -l
+ 1524  chmod -u +w More_Text.txt
+ 1525  man chmod
+ 1526  sudo chmod -u +rw More_Text.txt
+ 1527  sudo chmod -u+rw More_Text.txt
+ 1528  ls -l
+ 1529  sudo chmod -g+w More_Text.txt
+ 1530  ls -l
+ 1531  sudo chmod -u+r More_Text.txt
+ 1532  ls -l
+ 1533  sudo chmod -u+rw More_Text.txt
+ 1534  ls -l
+ 1535  sudo chmod -g+rw More_Text.txt
+ 1536  ls -l
+ 1537  chmod -g+w More_Text.txt
+ 1538  ls -l
+ 1539  chmod -u+r More_Text.txt
+ 1540  ls -l
+ 1541  chmod -u+w More_Text.txt
+ 1542  ls -l
+ 1543  chmod -u+rw More_Text.txt
+ 1544  ls -l
+ 1545  chmod -o-r More_Text.txt
+ 1546  ls -l
+ 1547  chmod -u+r More_Text.txt
+ 1548  ls -l
+ 1549  chmod -o-r More_Text.txt
+ 1550  ls -l
+ 1551  chmod -u+r More_Text.txt
+ 1552  ls -l
+ 1553  chmod -g+rw More_Text.txt
+ 1554  ls -l
+ 1555  chmod -u+rw -g+rw -o-r More_Text.txt
+ 1556  ls -l
+ 1557  chmod -a+xrw More_Text.txt
+ 1558  chmod -a+rwx More_Text.txt
+ 1559  chmod --help
+ 1560  chmod -a+r More_Text.txt
+ 1561  chmod a+r More_Text.txt
+ 1562  ls -l
+ 1563  chmod o-r More_Text.txt
+ 1564  ls -l
+ 1565  cd .
+ 1566  cd ..
+ 1567  mkdir No_Change
+ 1568  ls
+ 1569  chmod u-w No_Change
+ 1570  ls
+ 1571  ls -l
+ 1572  cd No_Change
+ 1573  cd ..
+ 1574  chmod u+w No_Change
+ 1575  ls -l
+ 1576  chmod u-x No_Change
+ 1577  cd No_Change
+ 1578  echo "hello, world!"
+ 1579  cat > hello.rb
+ 1580  ls
+ 1581  rm hello.rb
+ 1582  ls
+ 1583  cat > hello.rb
+ 1584  ruby hello.rb
+ 1585  rm hello.rb
+ 1586  ls
+ 1587  cat > hello.rb
+ 1588  ls -l
+ 1589  chmod u+x
+ 1590  chmod u+x hello.rb
+ 1591  sublime hello.rb
+ 1592  hello.rb
+ 1593  which ruby
+ 1594  sublime hello.rb
+ 1595  hello.rb
+ 1596  sublime hello.rb
+ 1597  ./hello.rb
+ 1598  px -x
+ 1599  ps -x
+ 1600  ps -x | grep chrome > chrome.list
+ 1601  ls
+ 1602  cat chrome.list
+ 1603  wc chrome.list
+ 1604  ps -x | grep chrome >> chrome.list
+ 1605  cat chrome.list
+ 1606  ps -x
+ 1607  ps -x | grep chromium >> chrome.list
+ 1608  cat chrome.list
+ 1609  git --version
+ 1610  cd
+ 1611  git config --global core.autocrlf input
+ 1612  git config --global core.safecrlf true
+ 1613  exit
+ 1614  cd Programming/Makers\ Academy
+ 1615  sublime hello.rb
+ 1616  ls
+ 1617  Java "cmd flash cards 2"
+ 1618  java "cmd flash cards 1"
+ 1619  cd ~/Programming/Java
+ 1620  ls
+ 1621  cp Quiz_Cards ~/Programming/Makers\ Academy
+ 1622  ls
+ 1623  cd ~/Programming/Makers\ Academy
+ 1624  ls
+ 1625  cd ~/Programming/Java
+ 1626  help cp
+ 1627  info cp
+ 1628  man cp
+ 1629  cp -r Quiz_Cards ~/Programming/Makers\ Academy
+ 1630  ls
+ 1631  cd ~/Programming/Makers\ Academy
+ 1632  ls
+ 1633  java Quiz_Cards/QuizCardPlayer
+ 1634  cd Quiz_Cards
+ 1635  ls
+ 1636  sublime QuizCardPlayer_error_StackTrace
+ 1637  sublime QuizCardPlayer_error_StackTrace1
+ 1638  ls
+ 1639  cd ..
+ 1640  ~/Programming/Java/jdk1.7.0_45/bin/java Quiz_Cards/QuizCardPlayer
+ 1641  cd Quiz_Cards
+ 1642  ~/Programming/Java/jdk1.7.0_45/bin/java QuizCardPlayer
+ 1643  ls
+ 1644  java QuizCardBuilder
+ 1645  java -v
+ 1646  java --version
+ 1647  man java
+ 1648  cd ..
+ 1649  env
+ 1650  export CLASSPATH=/home/jeremy/Programming/Java/jdk1.7.0_45/bin
+ 1651  echo $CLASSPATH
+ 1652  java Quiz_Cards/QuizCardBuilder
+ 1653  java -cp Quiz_Cards Quiz_Cards/QuizCardBuilder
+ 1654  ~/Programming/Java/jdk1.7.0_45/bin/java -cp Quiz_Cards Quiz_Cards/QuizCardBuilder
+ 1655  ~/Programming/Java/jdk1.7.0_45/bin/java -cp Quiz_Cards/QuizCardBuilder Quiz_Cards/QuizCardBuilder
+ 1656  cd Quiz_Cards
+ 1657  ~/Programming/Java/jdk1.7.0_45/bin/java QuizCardBuilder
+ 1658  env
+ 1659  man java
+ 1660  echo $CLASSPATH
+ 1661  export CLASSPATH=$CLASSPATH:/home/jeremy/Programming/Makers\ Academy/Quiz_Cards
+ 1662  echo $CLASSPATH
+ 1663  java QuizCardBuilder
+ 1664  ~/Programming/Java/jdk1.7.0_45/bin/java QuizCardBuilder
+ 1665  ~/Programming/Java/jdk1.7.0_45/bin/java QuizCardPlayer
+ 1666  cd ..
+ 1667  curl https://dl.dropboxusercontent.com/u/23372592/Challenge_1.zip > Challenge01.zip
+ 1668  unzip Challenge01.zip
+ 1669  ls
+ 1670  cd Challenge_1
+ 1671  ls
+ 1672  cd Text_Files
+ 1673  ls
+ 1674  cd ..
+ 1675  cd Empty_Folder
+ 1676  ls
+ 1677  cd ..
+ 1678  cd Text_Files
+ 1679  sublimeLess_Text.txt
+ 1680  sublime Less_Text.txt
+ 1681  sublime More_Text.txt
+ 1682  cd ..
+ 1683  ls
+ 1684  cd Programming/Makers\ Academy
+ 1685  mkdir gitDir
+ 1686  cd gitDir
+ 1687  echo "Git is Awesome" > gitText
+ 1688  ls
+ 1689  git init
+ 1690  git add gitText
+ 1691  git commit -m "First commit"
+ 1692  git status
+ 1693  echo "This should be something witty and humerous, but everything feels purile at this time of the morning." >> gitText
+ 1694  git status
+ 1695  git add gitText
+ 1696  git status
+ 1697  git commit -m "Updated gitText"
+ 1698  git status
+ 1699  git log
+ 1700  rm gitText
+ 1701  touch anotherGitFile
+ 1702  git status
+ 1703  git add anotherGitFile
+ 1704  git status
+ 1705  git rm gitText
+ 1706  git status
+ 1707  git commit -m "deletd gitText"
+ 1708  git log
+ 1709  git checkout 70ab29c6d1f8d
+ 1710  ls
+ 1711  cat gitText
+ 1712  git chechout master
+ 1713  git checkout master
+ 1714  cd
+ 1715  ls =al .ssh
+ 1716  ls -al .ssh
+ 1717  ls -al *.ssh
+ 1718  ls -al .ssh
+ 1719  cd .ssj
+ 1720  cd .ssh
+ 1721  ls
+ 1722  cd ..
+ 1723  ls .ssh
+ 1724  ssh-keygen -t rsa -b 4096 -C "jeremy.barrass@gmail.com"
+ 1725  eval "$(ssh-agent -s)"
+ 1726  ssh-add .ssh/id_rsa
+ 1727  sublime .ssh/id_rsa.pub
+ 1728  ssh -T git@github.com
+ 1729  cd Programming/Makers\ Academy/gitDir
+ 1730  git remote -v
+ 1731  git remote add origin git@github.com:Flight-of-Dragons/playing-with-git.git
+ 1732  git remote -v
+ 1733  cat.git/config
+ 1734  cat .git/config
+ 1735  git push -u origin master
+ 1736  git push
+ 1737  git config --global push.default simple
+ 1738  git log
+ 1739  git pull origin master
+ 1740  git log
+ 1741  git pull
+ 1742  git log
+ 1743  cd 
+ 1744  cd Programming
+ 1745  ls
+ 1746  cd Github
+ 1747  ls
+ 1748  cd ..
+ 1749  cd git
+ 1750  ls
+ 1751  cd ..
+ 1752  mv -r git Github
+ 1753  mv -R git Github
+ 1754  mv git Github
+ 1755  ls
+ 1756  cd Github
+ 1757  ls
+ 1758  cd ..
+ 1759  ls Python
+ 1760  ls Java
+ 1761  cd Java/jdk1.7.0_45
+ 1762  ls
+ 1763  ./configure
+ 1764  cd ..
+ 1765  ls
+ 1766  cd ..
+ 1767  ls
+ 1768  ls HTML
+ 1769  ls Javascript
+ 1770  cp -R HTML Github
+ 1771  cp -R Javascript Github
+ 1772  cp -R Java Github
+ 1773  cp -R Ruby Github
+ 1774  cd Github/HTML
+ 1775  git init
+ 1776  ls
+ 1777  git add Session\ 2
+ 1778  man git
+ 1779  git config
+ 1780  git config --global
+ 1781  ls ~/.git
+ 1782  ls ~/*git*
+ 1783  find ~/*git*
+ 1784  grep ~/*git*
+ 1785  git config --global --get-all
+ 1786  git config --get-all
+ 1787  git config --global core --get-all
+ 1788  which git
+ 1789  ls /usr/bin/git
+ 1790  ls /usr/bin
+ 1791  pwd
+ 1792  ls /usr/bin | less
+ 1793  man java
+ 1794  man javac
+ 1795  git status
+ 1796  git add "Javascript Test Window"
+ 1797  git add Session 2
+ 1798  git add Session\ 2
+ 1799  cd Session\ 2
+ 1800  lso
+ 1801  ls
+ 1802  git add Homework
+ 1803  cd Homewrk
+ 1804  cd Homework
+ 1805  ls
+ 1806  git add about.html
+ 1807  git add domestic.html
+ 1808  cd ..
+ 1809  git config --global core.autocrlf false
+ 1810  git config --global core.safecrlf false
+ 1811  git add Session\ 2
+ 1812  ls
+ 1813  git add Session\ 3
+ 1814  git status
+ 1815  git commit -m "First Commit"
+ 1816  cd ..
+ 1817  ls
+ 1818  cd Javascript
+ 1819  ls
+ 1820  git init
+ 1821  git add Session 1
+ 1822  git add Session\ 1
+ 1823  git add Session\ 2
+ 1824  git add Session\ 3
+ 1825  git commit -m "First Commit"
+ 1826  cd ..
+ 1827  ls
+ 1828  git config --global core.autocrlf input
+ 1829  git config --global core.safecrlf true
+ 1830  cd Java
+ 1831  git init
+ 1832  ls
+ 1833  git add BeatBox
+ 1834  git add Beer_Song
+ 1835  git add Business_Words
+ 1836  git add Bust_A_Dotcom
+ 1837  git add Bust_A_DotCom
+ 1838  git add Chat_Client
+ 1839  git add File_Reader
+ 1840  git add Guessing_Game
+ 1841  git add GUI1
+ 1842  git add Music_Machine
+ 1843  git add Quiz_Cards
+ 1844  git status
+ 1845  git commit -m "First Commit"
+ 1846  cd ..
+ 1847  ls
+ 1848  ls Ruby
+ 1849  exit
+ 1850  man mkdir
+ 1851  cd ..
+ 1852  cd Makers\ Academy
+ 1853  ls
+ 1854  mkdir CmdLine
+ 1855  mv Challenge01.zip CmdLine
+ 1856  ls Challenge_1
+ 1857  mv Challenge_1 CmdLine
+ 1858  mv Dir3 CmdLine
+ 1859  mv gitDir CmdLine
+ 1860  mv hello.rb CmdLine
+ 1861  ls
+ 1862  mv "cmd flash cards 1" CmdLine
+ 1863  mv "cmd flash cards 2" CmdLine
+ 1864  ls
+ 1865  mv myMusic.txt CmdLine
+ 1866  mv hello.rb~ CmdLine
+ 1867  ls
+ 1868  ls o-rdoc
+ 1869  mkdir temp
+ 1870  cd temp
+ 1871  gem install unixoid-challenge
+ 1872  mkdir -p my/private/files
+ 1873  unixoid-challenge
+ 1874  cd ..
+ 1875  mv temp ~
+ 1876  ls
+ 1877  cd
+ 1878  ls
+ 1879  cd temp
+ 1880  unixoid-challenge
+ 1881  exit
+ 1882  echo $TESTING_MAKERS
+ 1883  unixoid-challenge
+ 1884  source ~/.profile
+ 1885  unixoid-challenge
+ 1886  which bash_profile
+ 1887  find .bash_profile /usr
+ 1888  find /usr/bin/bash
+ 1889  find /usr/bash
+ 1890  find /usr/bin
+ 1891  exit
+ 1892  sublime ~/.profile
+ 1893  gedit ~/.profile
+ 1894  exit
+ 1895  pwd
+ 1896  ls
+ 1897  cd ..
+ 1898  cd private/files
+ 1899  ls
+ 1900  cd ..
+ 1901  mv public/files/t-vars.env private/files/t-vars.env
+ 1902  cd public/files
+ 1903  ls
+ 1904  cd ..
+ 1905  cd private/files
+ 1906  ls
+ 1907  cd ..
+ 1908  unixoid-challenge
+ 1909  cd ..
+ 1910  cd .rvm
+ 1911  ls
+ 1912  cd gems
+ 1913  ls gemsets
+ 1914  cd ..
+ 1915  cd gemsets
+ 1916  ls
+ 1917  ls ruby
+ 1918  cd ..
+ 1919  cd gems
+ 1920  cd .rvm
+ 1921  ls
+ 1922  cd gems
+ 1923  ls
+ 1924  cd ruby-2.1.2
+ 1925  ls
+ 1926  cat environment
+ 1927  cd bin
+ 1928  ls
+ 1929  cd ..
+ 1930  cd ~/temp
+ 1931  cd
+ 1932  ls
+ 1933  exit
+ 1934  cd
+ 1935  cd temp
+ 1936  unixoid-challenge
+ 1937  ./unixoid-challenge
+ 1938  ls
+ 1939  rvm unixoid-challenge
+ 1940  echo $PATH
+ 1941  rvm get stable --auto-dotfiles
+ 1942  gem install unixoid-challenge
+ 1943  unixoid-challenge
+ 1944  ruby unixoid-challenge
+ 1945  rvm unixoid-challenge
+ 1946  rvm use ruby-2.2.3
+ 1947  unixoid-challenge
+ 1948  ruby unixoid-challenge
+ 1949  rvm unixoid-challenge
+ 1950  cd ..
+ 1951  ls
+ 1952  mv temp Desktop
+ 1953  cd Desktop/temp
+ 1954  ls
+ 1955  gem install unixoid-challenge
+ 1956  unixoid-challenge
+ 1957  rvm unixoid-challenge
+ 1958  rvm use ruby-2.1.2
+ 1959  unixoid-challenge
+ 1960  mkdir -p my/public/files
+ 1961  cd my/public/files
+ 1962  touch t-vars.env
+ 1963  unixoid-challenge
+ 1964  which unixoid-challenge
+ 1965  cat > t-vars.env
+ 1966  cat t-vars.env
+ 1967  env | grep "^T" | cat >> t-vars.env
+ 1968  cat t-vars.env
+ 1969  cd ..
+ 1970  unixoid-challenge
+ 1971  echo "export TESTING_MAKERS=working" >> ~/.profile
+ 1972  exit
+ 1973  echo $TESTING_MAKERS
+ 1974  unixoid-challenge
+ 1975  cd my
+ 1976  cd public
+ 1977  cd files
+ 1978  env | grep "^T" | cat > t-vars.count
+ 1979  ls
+ 1980  cat t-vars.count
+ 1981  rm t-tarv.count
+ 1982  rm t-vars.count
+ 1983  env | grep "^T" | wc -l  | cat > t-vars.count
+ 1984  cat t-vars.count
+ 1985  ls -l
+ 1986  chmod g-rw
+ 1987  chmod g-rw t-vars.env
+ 1988  ls -l
+ 1989  chmod o-r t-vars.env
+ 1990  ls -l
+ 1991  echo "export PATH=$PATH:~/.rvm/bin" >> ~/.profile
+ 1992  exit
+ 1993  cd ..
+ 1994  find unixoid-challenge
+ 1995  find "unixoid-challenge"
+ 1996  cd .rvm
+ 1997  ls
+ 1998  ls gems
+ 1999  cd ruby-2.1.2
+ 2000  exit
+ 2001  ls
+ 2002  cd ~/Desktop/temp
+ 2003  ls
+ 2004  cd my
+ 2005  ls
+ 2006  ls -l
+ 2007  chmod go-x private
+ 2008  ls -l
+ 2009  chmod o+w public
+ 2010  ls -l
+ 2011  chmod o-w public
+ 2012  ls -l
+ 2013  cd pubic/files
+ 2014  cd pubic/file
+ 2015  cd pubic
+ 2016  cd public/files
+ 2017  ls
+ 2018  ls -l
+ 2019  chmod o-w t-vars.count
+ 2020  ls -l
+ 2021  chmod o+w t-vars.count
+ 2022  ls -l
+ 2023  touch text-files-count.txt
+ 2024  find -r ~ ".txt" | wc -l | cat > text-files-count.txt
+ 2025  find -R ~ ".txt" | wc -l | cat > text-files-count.txt
+ 2026  ls -r ~ *.txt | wc -l | cat > text-files-count.txt
+ 2027  ls
+ 2028  cat text-files-count.txt
+ 2029  cd ..
+ 2030  cd private/files
+ 2031  count first-three-env.txt
+ 2032  touch first-three-env.txt
+ 2033  man head
+ 2034  man sort
+ 2035  env | head -3 | sort | cat > first-three-env.txt
+ 2036  cat first-three-env.txt
+ 2037  touch commands.txt
+ 2038  man history
+ 2039  history | cat > commands.txt
